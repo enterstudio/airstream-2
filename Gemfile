@@ -13,5 +13,5 @@ group :test do
   gem 'coveralls', require: false
   gem 'oj'
   gem 'aruba'
-  gem 'json'
+  gem 'json', '>= 2.3.0'
 end
