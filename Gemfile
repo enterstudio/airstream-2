@@ -12,6 +12,6 @@ group :test do
   gem 'minitest'
   gem 'coveralls', require: false
   gem 'oj'
-  gem 'aruba'
+  gem 'aruba', '>= 0.6.2'
   gem 'json'
 end
