@@ -5,7 +5,7 @@ gemspec
 gem 'rake'
 
 group :development do
-  gem 'rake-notes'
+  gem 'rake-notes', '>= 0.2.1'
 end
 
 group :test do
