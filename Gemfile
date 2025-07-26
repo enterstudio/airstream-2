@@ -10,7 +10,7 @@ end
 
 group :test do
   gem 'minitest'
-  gem 'coveralls', require: false
+  gem 'coveralls', '>= 0.8.23', require: false
   gem 'oj'
   gem 'aruba'
   gem 'json'
